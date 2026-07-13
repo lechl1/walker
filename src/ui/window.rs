@@ -50,7 +50,10 @@ use gtk4::{
 use gtk4::{Box, ListScrollFlags, ScrollInfo};
 use gtk4::{
     CssProvider,
-    prelude::{EditableExt, EventControllerExt, ListItemExt, SelectionModelExt},
+    prelude::{
+        EditableExt, EventControllerExt, GestureExt, GestureSingleExt, ListItemExt,
+        SelectionModelExt,
+    },
 };
 use gtk4::{
     GridView,
